@@ -212,7 +212,7 @@ response = r.post(
 
 parser_A = IllegalStateParser(data='Administrator account setup')
 parser_A.feed(response.text)
-if not parser_A:
+if not parser_A.results:
     print "Not at administrator screen, failing"
     raise Exception
 
@@ -225,6 +225,10 @@ response = r.post(
     data=admin_form
 )
 
-r = MyHTMLParser()
-r.feed(response.text)
+parser_A = IllegalStateParser(data='Log in - Bitbucket')
+parser_A.feed(response.text)
+if not parser_A.results:
+    print "Not Login Screen, failing"
+    raise Exception
+
 
