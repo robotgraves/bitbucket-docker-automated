@@ -18,7 +18,7 @@ Docker Image and Python script to automagically start a Bitbucket instance insid
 2) Run the Docker Container
     * docker run --name bitbucket -e CONTEXT_PATH=ROOT -p 7990:7990 -p 7999:7999 bitbucket
 3) Place your bamboo key next to the script file
-    * file name should be "bambookey_modified"
+    * file name should be "bitbucketkey"
     * Make sure it is in the proper format, there are some formatting issues with this file.  There should be slashes in the key itself
 4) Run the script
     * v/bin/python scripts/forms.py
