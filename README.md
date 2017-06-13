@@ -23,9 +23,7 @@ Docker Image and Python script to automagically start a Bitbucket instance insid
 4) Run the script
     * v/bin/python scripts/forms.py
     * you should see a number of print lines while it is working, expect to see
-        * waiting for response
-        * Illegal Exception while OSGI is down, waiting
-        * Timeout waiting for OSGI, waiting
+        * Atlassian Bitbucket is starting up
     * Once everything has run, you should see: build complete
 
 

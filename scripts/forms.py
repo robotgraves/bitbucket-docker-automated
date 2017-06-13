@@ -231,4 +231,5 @@ if not parser_A.results:
     print "Not Login Screen, failing"
     raise Exception
 
+print "build complete"
 
