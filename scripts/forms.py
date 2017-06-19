@@ -117,7 +117,7 @@ database_form = {
 keycode_form = {
     'step': 'settings',
     'applicationTitle': 'Bitbucket',
-    'baseUrl': 'http://192.168.253.52:7990',
+    'baseUrl': 'http://10.0.2.15:7990',
     'license-type': 'false',
     'license': str(z),
     'licenseDisplay': str(z),
