@@ -88,6 +88,7 @@ class XSRFParser(HTMLParser):
             # print "clearing tag"
             self.recording -= 1
 
+time.sleep(10)
 
 z = file('/home/vagrant/PycharmProjects/bamboo/bitbucket/bitbucketkey').read()
 
